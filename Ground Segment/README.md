@@ -1,4 +1,4 @@
-# Ground Segment Capella Project
+# NASA Ground Segment Capella Project
 
 This project provides a blue print of a Ground Segment architecture for an Earth Observation mission based upon
  [NASA State-of-the-Art Small Spacecraft Technology report](https://www.nasa.gov/smallsat-institute/sst-soa/).

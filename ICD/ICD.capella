@@ -252,7 +252,7 @@
           <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="fa40def6-11e7-4765-8cbd-1721cb716d4a"
               name="LC 1" abstractType="#e55716e2-adfe-470f-8d26-d42f31cd209a"/>
           <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="185130bc-b4a8-4e52-ac8d-365f7961c347"
-              name="LC 2" abstractType="#f85a2a4f-2d80-4c03-93e3-7d00236a2687"/>
+              name="Mission Control Center" abstractType="#f85a2a4f-2d80-4c03-93e3-7d00236a2687"/>
           <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="81435522-a9d1-4b88-a561-67d2e973443b"
               name="LC 3" abstractType="#04478c5c-8c0d-44c3-8e35-52720274dd02"/>
           <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="324976b0-79d9-48f3-a59b-6d5ec8ebafc1"
@@ -268,7 +268,7 @@
                 id="96fe5ca4-dc70-4b76-8381-e19a358b93ab" name="CP 2"/>
           </ownedLogicalComponents>
           <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
-              id="f85a2a4f-2d80-4c03-93e3-7d00236a2687" name="LC 2">
+              id="f85a2a4f-2d80-4c03-93e3-7d00236a2687" name="Mission Control Center">
             <ownedFeatures xsi:type="org.polarsys.capella.core.data.fa:ComponentPort"
                 id="3d365c4d-7047-4997-9692-ec4da16d7878" name="CP 1"/>
             <ownedFeatures xsi:type="org.polarsys.capella.core.data.fa:ComponentPort"
