@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <viewpoint:DAnalysis xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:viewpoint="http://www.eclipse.org/sirius/1.1.0" xsi:schemaLocation="http://www.eclipse.org/sirius/description/1.1.0 http://www.eclipse.org/sirius/1.1.0#//description" uid="_R5TGkOvCEe--8IYMvCHzMQ" selectedViews="_R7wksOvCEe--8IYMvCHzMQ _R9ZjcOvCEe--8IYMvCHzMQ" version="15.4.1.202403191723">
-  <semanticResources>Ground%20Segment.afm</semanticResources>
-  <semanticResources>Ground%20Segment.capella</semanticResources>
+  <semanticResources>NASA%20Ground%20Segment.afm</semanticResources>
+  <semanticResources>NASA%20Ground%20Segment.capella</semanticResources>
   <ownedViews xmi:type="viewpoint:DView" uid="_R7wksOvCEe--8IYMvCHzMQ">
     <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/org.polarsys.kitalpha.ad.integration.sirius/description/ad.odesign#//@ownedViewpoints[name='ad']"/>
   </ownedViews>
