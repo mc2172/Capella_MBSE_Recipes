@@ -208,9 +208,35 @@
             name="Logical System" abstractType="#36158e52-ee23-4300-a0ff-324aaf0ac190"/>
         <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
             id="36158e52-ee23-4300-a0ff-324aaf0ac190" name="Logical System">
+          <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="fb14bb11-77b3-4f5d-ab94-8c59945f673f"
+              name="Ground Segment" abstractType="#7ad191ea-458f-46a1-8eee-71437e340838"/>
+          <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="2563af67-6433-4d08-a158-ef9c4101cf2e"
+              name="Spacecraft" abstractType="#a088c23c-cdff-44d9-b5ab-bc9dc9530526"/>
+          <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="a87b229b-0598-4ff5-9c8f-cdbfd754a61b"
+              name="Users" abstractType="#abf5ca2d-5e39-4802-a594-edb2ef111e68"/>
           <ownedComponentRealizations xsi:type="org.polarsys.capella.core.data.cs:ComponentRealization"
               id="364a66af-308b-4bec-a0d3-ee6b36c33408" targetElement="#16c08b27-4409-44a4-bb80-e7c985135faa"
               sourceElement="#36158e52-ee23-4300-a0ff-324aaf0ac190"/>
+          <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
+              id="7ad191ea-458f-46a1-8eee-71437e340838" name="Ground Segment">
+            <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="b1282f10-ae63-495d-a75b-17c09ad593ab"
+                name="MOC" abstractType="#7ae58d25-fd86-4e51-878f-4b271cb7d3ce"/>
+            <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="0ff34df5-6bf0-4b24-b632-96eaaec5ba23"
+                name="SOC" abstractType="#49653a70-8920-4bac-8f7e-767dc8af283d"/>
+            <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="e9bf759e-fa97-48e9-8e6b-691d41d93695"
+                name="GSN" abstractType="#f7734043-c54d-4377-9f95-c031a26aa40f"/>
+            <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
+                id="7ae58d25-fd86-4e51-878f-4b271cb7d3ce" name="MOC" summary="Mission Operations Center"/>
+            <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
+                id="49653a70-8920-4bac-8f7e-767dc8af283d" name="SOC" summary="Science Operations Center"/>
+            <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
+                id="f7734043-c54d-4377-9f95-c031a26aa40f" name="GSN" summary="Ground Stations Network"/>
+          </ownedLogicalComponents>
+          <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
+              id="a088c23c-cdff-44d9-b5ab-bc9dc9530526" name="Spacecraft" actor="true"/>
+          <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
+              id="abf5ca2d-5e39-4802-a594-edb2ef111e68" name="Users" actor="true"
+              human="true"/>
         </ownedLogicalComponents>
       </ownedLogicalComponentPkg>
       <ownedSystemAnalysisRealizations xsi:type="org.polarsys.capella.core.data.la:SystemAnalysisRealization"
