@@ -1,4 +1,4 @@
-# Capella MBSE Diaries
+# Capella MBSE Recipes
 Tools, samples, and tips for Capella MBSE use, scripting, and document generation
 
 ## Capella Sample Projects
